@@ -63,7 +63,8 @@ header {
   
   form {
     margin: auto;
-    display: table;
+    display: flex;
+    flex-direction: column;
   }
   
   input {
@@ -77,6 +78,7 @@ header {
     background: #fff;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    text-align: center;
   }
   
   input[type=submit] {
@@ -135,6 +137,7 @@ footer {
 .footer__links {
   text-align: center;
   list-style-type: none;
+  padding-left: 0;
   
   li {
     display: inline-block;
